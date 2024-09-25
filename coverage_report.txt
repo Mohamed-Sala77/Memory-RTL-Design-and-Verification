@@ -1,0 +1,870 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /my_top/intf
+=== Design Unit: work.intf1
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        146       146         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /my_top/intf --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         73 
+Toggled Node Count   =         73 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (146 of 146 bins)
+
+=================================================================================
+=== Instance: /my_top/dut1
+=== Design Unit: work.memory
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         5         5         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_top/dut1
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File mem_dut.v
+------------------------------------IF Branch------------------------------------
+    18                                      2004     Count coming in to IF
+    18              1                          2     
+    24              1                       1692     
+    34              1                        310     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    25                                      1692     Count coming in to IF
+    25              1                        869     
+    29              1                        823     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      12        12         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_top/dut1 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File mem_dut.v
+    17              1                       2004     
+    19              1                          2     
+    19              2                         32     
+    20              1                         32     
+    22              1                          2     
+    23              1                          2     
+    27              1                        869     
+    28              1                        869     
+    31              1                        823     
+    32              1                        823     
+    35              1                        310     
+    36              1                        310     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        210       146        64    69.52%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /my_top/dut1 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                           i[31-0]           0           0        0.00 
+
+Total Node Count     =        105 
+Toggled Node Count   =         73 
+Untoggled Node Count =         32 
+
+Toggle Coverage      =      69.52% (146 of 210 bins)
+
+=================================================================================
+=== Instance: /my_top
+=== Design Unit: work.my_top
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        53        13        40    24.52%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_top
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File my_sequence_item.sv
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               1                    ***0***     
+    2               2                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               3                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               4                    ***0***     
+    2               5                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               7                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File my_sequence.sv
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               1                    ***0***     
+    2               2                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               3                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               4                    ***0***     
+    2               5                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    2                                    ***0***     Count coming in to IF
+    2               7                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File my_driver.sv
+------------------------------------IF Branch------------------------------------
+    43                                         1     Count coming in to IF
+    43              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    44                                   ***0***     Count coming in to IF
+    44              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File my_monitor.sv
+------------------------------------IF Branch------------------------------------
+    41                                         1     Count coming in to IF
+    41              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    42                                   ***0***     Count coming in to IF
+    42              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File my_agent.sv
+------------------------------------IF Branch------------------------------------
+    51                                         1     Count coming in to IF
+    51              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    52                                   ***0***     Count coming in to IF
+    52              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File my_scoreboard.sv
+------------------------------------IF Branch------------------------------------
+    49                                      2003     Count coming in to IF
+    49              1                       2003     
+    52              1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    54                                   ***0***     Count coming in to IF
+    54              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    71                                         1     Count coming in to IF
+    71              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    72                                         1     Count coming in to IF
+    72              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    90                                      2003     Count coming in to IF
+    90              1                          3     
+    97              1                       1691     
+    108             1                        309     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    98                                      1691     Count coming in to IF
+    98              1                        868     
+    102             1                        823     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+  File my_env.sv
+------------------------------------IF Branch------------------------------------
+    24                                         1     Count coming in to IF
+    24              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    25                                   ***0***     Count coming in to IF
+    25              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+  File my_test.sv
+------------------------------------IF Branch------------------------------------
+    19                                         1     Count coming in to IF
+    19              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    20                                   ***0***     Count coming in to IF
+    20              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         0         6     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /my_top --
+
+  File my_sequence_item.sv
+----------------Focused Condition View-------------------
+Line       2 Item    1  (name == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name == 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name == 0)_0         -                             
+  Row   2:    ***0***  (name == 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       2 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+----------------Focused Condition View-------------------
+Line       2 Item    1  (name == 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name == 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name == 0)_0         -                             
+  Row   2:    ***0***  (name == 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       2 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+
+
+
+
+----------------Focused Condition View-------------------
+Line       49 Item    1  ((this.sequence_item.data_out == this.expected_item.data_out) && (this.sequence_item.valid_out == this.expected_item.valid_out))
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+                                                      Input Term   Covered  Reason for no coverage   Hint
+                                                     -----------  --------  -----------------------  --------------
+    (this.sequence_item.data_out == this.expected_item.data_out)         N  '_0' not hit             Hit '_0'
+  (this.sequence_item.valid_out == this.expected_item.valid_out)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target                                                        Non-masking condition(s)      
+ ---------  ---------  --------------------                                              -------------------------     
+  Row   1:    ***0***  (this.sequence_item.data_out == this.expected_item.data_out)_0    -                             
+  Row   2:          1  (this.sequence_item.data_out == this.expected_item.data_out)_1    (this.sequence_item.valid_out == this.expected_item.valid_out)
+  Row   3:    ***0***  (this.sequence_item.valid_out == this.expected_item.valid_out)_0  (this.sequence_item.data_out == this.expected_item.data_out)
+  Row   4:          1  (this.sequence_item.valid_out == this.expected_item.valid_out)_1  (this.sequence_item.data_out == this.expected_item.data_out)
+
+
+
+
+
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         87        87         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /my_top/my_subscriber/group_1                   100.00%        100          -    Covered              
+    covered/total bins:                                    87         87          -                      
+    missing/total bins:                                     0         87          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint Input_Data                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Input_Data[0]                                 616          1          -    Covered              
+        bin Input_Data[1]                                 682          1          -    Covered              
+        bin Input_Data[2]                                 705          1          -    Covered              
+    Coverpoint Address                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Address[0]                                    133          1          -    Covered              
+        bin Address[1]                                    126          1          -    Covered              
+        bin Address[2]                                    147          1          -    Covered              
+        bin Address[3]                                    122          1          -    Covered              
+        bin Address[4]                                    109          1          -    Covered              
+        bin Address[5]                                    145          1          -    Covered              
+        bin Address[6]                                    127          1          -    Covered              
+        bin Address[7]                                    134          1          -    Covered              
+        bin Address[8]                                    108          1          -    Covered              
+        bin Address[9]                                    117          1          -    Covered              
+        bin Address[10]                                   127          1          -    Covered              
+        bin Address[11]                                   114          1          -    Covered              
+        bin Address[12]                                   122          1          -    Covered              
+        bin Address[13]                                   130          1          -    Covered              
+        bin Address[14]                                   121          1          -    Covered              
+        bin Address[15]                                   121          1          -    Covered              
+    Coverpoint Write_Read                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Write[0]                                      980          1          -    Covered              
+        bin Write[1]                                     1023          1          -    Covered              
+    Coverpoint Enable                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Enable[0]                                     312          1          -    Covered              
+        bin Enable[1]                                    1691          1          -    Covered              
+    Cross Address_Write                               100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Address[15],Write[1],Enable[1]>           56          1          -    Covered              
+            bin <Address[14],Write[1],Enable[1]>           49          1          -    Covered              
+            bin <Address[13],Write[1],Enable[1]>           58          1          -    Covered              
+            bin <Address[12],Write[1],Enable[1]>           56          1          -    Covered              
+            bin <Address[11],Write[1],Enable[1]>           45          1          -    Covered              
+            bin <Address[10],Write[1],Enable[1]>           45          1          -    Covered              
+            bin <Address[9],Write[1],Enable[1]>            52          1          -    Covered              
+            bin <Address[8],Write[1],Enable[1]>            45          1          -    Covered              
+            bin <Address[7],Write[1],Enable[1]>            64          1          -    Covered              
+            bin <Address[6],Write[1],Enable[1]>            68          1          -    Covered              
+            bin <Address[5],Write[1],Enable[1]>            59          1          -    Covered              
+            bin <Address[4],Write[1],Enable[1]>            48          1          -    Covered              
+            bin <Address[3],Write[1],Enable[1]>            59          1          -    Covered              
+            bin <Address[2],Write[1],Enable[1]>            52          1          -    Covered              
+            bin <Address[1],Write[1],Enable[1]>            51          1          -    Covered              
+            bin <Address[0],Write[1],Enable[1]>            61          1          -    Covered              
+            bin <Address[15],Write[0],Enable[1]>           49          1          -    Covered              
+            bin <Address[14],Write[0],Enable[1]>           55          1          -    Covered              
+            bin <Address[13],Write[0],Enable[1]>           46          1          -    Covered              
+            bin <Address[12],Write[0],Enable[1]>           48          1          -    Covered              
+            bin <Address[11],Write[0],Enable[1]>           54          1          -    Covered              
+            bin <Address[10],Write[0],Enable[1]>           64          1          -    Covered              
+            bin <Address[9],Write[0],Enable[1]>            49          1          -    Covered              
+            bin <Address[8],Write[0],Enable[1]>            47          1          -    Covered              
+            bin <Address[7],Write[0],Enable[1]>            51          1          -    Covered              
+            bin <Address[6],Write[0],Enable[1]>            48          1          -    Covered              
+            bin <Address[5],Write[0],Enable[1]>            59          1          -    Covered              
+            bin <Address[4],Write[0],Enable[1]>            44          1          -    Covered              
+            bin <Address[3],Write[0],Enable[1]>            40          1          -    Covered              
+            bin <Address[2],Write[0],Enable[1]>            72          1          -    Covered              
+            bin <Address[1],Write[0],Enable[1]>            46          1          -    Covered              
+            bin <Address[0],Write[0],Enable[1]>            51          1          -    Covered              
+            bin <Address[15],Write[1],Enable[0]>            7          1          -    Covered              
+            bin <Address[14],Write[1],Enable[0]>            9          1          -    Covered              
+            bin <Address[13],Write[1],Enable[0]>           15          1          -    Covered              
+            bin <Address[12],Write[1],Enable[0]>            6          1          -    Covered              
+            bin <Address[11],Write[1],Enable[0]>            7          1          -    Covered              
+            bin <Address[10],Write[1],Enable[0]>            8          1          -    Covered              
+            bin <Address[9],Write[1],Enable[0]>             9          1          -    Covered              
+            bin <Address[8],Write[1],Enable[0]>            10          1          -    Covered              
+            bin <Address[7],Write[1],Enable[0]>            13          1          -    Covered              
+            bin <Address[6],Write[1],Enable[0]>             5          1          -    Covered              
+            bin <Address[5],Write[1],Enable[0]>            14          1          -    Covered              
+            bin <Address[4],Write[1],Enable[0]>             9          1          -    Covered              
+            bin <Address[3],Write[1],Enable[0]>            13          1          -    Covered              
+            bin <Address[2],Write[1],Enable[0]>            13          1          -    Covered              
+            bin <Address[1],Write[1],Enable[0]>            10          1          -    Covered              
+            bin <Address[0],Write[1],Enable[0]>             7          1          -    Covered              
+            bin <Address[15],Write[0],Enable[0]>            9          1          -    Covered              
+            bin <Address[14],Write[0],Enable[0]>            8          1          -    Covered              
+            bin <Address[13],Write[0],Enable[0]>           11          1          -    Covered              
+            bin <Address[12],Write[0],Enable[0]>           12          1          -    Covered              
+            bin <Address[11],Write[0],Enable[0]>            8          1          -    Covered              
+            bin <Address[10],Write[0],Enable[0]>           10          1          -    Covered              
+            bin <Address[9],Write[0],Enable[0]>             7          1          -    Covered              
+            bin <Address[8],Write[0],Enable[0]>             6          1          -    Covered              
+            bin <Address[7],Write[0],Enable[0]>             6          1          -    Covered              
+            bin <Address[6],Write[0],Enable[0]>             6          1          -    Covered              
+            bin <Address[5],Write[0],Enable[0]>            13          1          -    Covered              
+            bin <Address[4],Write[0],Enable[0]>             8          1          -    Covered              
+            bin <Address[3],Write[0],Enable[0]>            10          1          -    Covered              
+            bin <Address[2],Write[0],Enable[0]>            10          1          -    Covered              
+            bin <Address[1],Write[0],Enable[0]>            19          1          -    Covered              
+            bin <Address[0],Write[0],Enable[0]>            14          1          -    Covered              
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     189       141        48    74.60%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File my_top.sv
+    27              1                          1     
+    28              1                          1     
+    31              1                       4007     
+    31              2                       4006     
+  File my_sequence_item.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    2               4                    ***0***     
+    2               5                    ***0***     
+    2               6                       2003     
+    2               7                    ***0***     
+    2               8                    ***0***     
+    2               9                    ***0***     
+    2              10                    ***0***     
+    4               1                          7     
+    24              1                       8012     
+  File my_sequence.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    2               4                    ***0***     
+    2               5                    ***0***     
+    2               6                          1     
+    2               7                    ***0***     
+    2               8                    ***0***     
+    2               9                    ***0***     
+    2              10                    ***0***     
+    9               1                          1     
+    13              1                          1     
+    20              1                          1     
+    24              1                          1     
+    24              2                       2000     
+    27              1                       2000     
+    28              1                       2000     
+    34              1                       2000     
+    39              1                          1     
+    40              1                          1     
+    41              1                          1     
+    42              1                          1     
+    44              1                          1     
+    45              1                          1     
+    46              1                          1     
+    47              1                          1     
+    49              1                          1     
+    50              1                          1     
+    51              1                          1     
+  File my_driver.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    8               1                          1     
+    40              1                          1     
+    41              1                          1     
+    44              1                    ***0***     
+    49              1                          1     
+    57              1                          1     
+    58              1                          1     
+    60              1                       2004     
+    61              1                       2003     
+    62              1                       2003     
+    63              1                       2003     
+    64              1                       2003     
+    65              1                       2003     
+    66              1                       2003     
+    67              1                       2003     
+    68              1                       2003     
+    69              1                       2003     
+    85              1                       2003     
+  File my_monitor.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    10              1                          1     
+    37              1                          1     
+    38              1                          1     
+    39              1                          1     
+    42              1                    ***0***     
+    47              1                          1     
+    54              1                          1     
+    55              1                          1     
+    58              1                       2004     
+    59              1                       2003     
+    60              1                       2003     
+    61              1                       2003     
+    62              1                       2003     
+    63              1                       2003     
+    66              1                       2003     
+    67              1                       2003     
+    69              1                       2003     
+    70              1                       2003     
+    71              1                       2003     
+    73              1                       2003     
+  File my_sequencer.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    7               1                          1     
+    39              1                          1     
+    40              1                          1     
+    45              1                          1     
+    54              1                          1     
+  File my_agent.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    14              1                          1     
+    46              1                          1     
+    47              1                          1     
+    48              1                          1     
+    49              1                          1     
+    52              1                    ***0***     
+    54              1                          1     
+    55              1                          1     
+    62              1                          1     
+    63              1                          1     
+    72              1                          1     
+  File my_scoreboard.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    18              1                          1     
+    19              1                          1     
+    20              1                          1     
+    26              1                          1     
+    27              1                          1     
+    28              1                          1     
+    31              1                          1     
+    39              1                          1     
+    42              1                          1     
+    44              1                       2004     
+    46              1                       2003     
+    51              1                       2003     
+    53              1                    ***0***     
+    54              1                    ***0***     
+    62              1                       2003     
+    63              1                       2003     
+    70              1                          1     
+    71              1                          1     
+    72              1                          1     
+    84              1                       2003     
+    85              1                       2003     
+    86              1                       2003     
+    92              1                          3     
+    92              2                         48     
+    93              1                         48     
+    95              1                          3     
+    96              1                          3     
+    100             1                        868     
+    101             1                        868     
+    104             1                        823     
+    105             1                        823     
+    110             1                        309     
+    111             1                        309     
+  File my_subscriber.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    29              1                          1     
+    30              1                          1     
+    67              1                          1     
+    68              1                          1     
+    75              1                          1     
+    84              1                          1     
+    89              1                       2003     
+    91              1                       2003     
+    92              1                       2003     
+    93              1                       2003     
+    95              1                       2003     
+  File my_env.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                    ***0***     
+    11              1                          1     
+    18              1                          1     
+    19              1                          1     
+    20              1                          1     
+    21              1                          1     
+    25              1                    ***0***     
+    27              1                          1     
+    32              1                          1     
+    33              1                          1     
+    34              1                          1     
+    46              1                          1     
+  File my_test.sv
+    2               1                    ***0***     
+    2               2                    ***0***     
+    2               3                          1     
+    9               1                          1     
+    15              1                          1     
+    16              1                          1     
+    17              1                          1     
+    20              1                    ***0***     
+    22              1                          1     
+    27              1                          1     
+    37              1                          1     
+    38              1                          1     
+    39              1                          1     
+    40              1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          4         2         2    50.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /my_top --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               rst           0           0        0.00 
+
+Total Node Count     =          2 
+Toggled Node Count   =          1 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      50.00% (2 of 4 bins)
+
+=================================================================================
+=== Instance: /uvm_pkg
+=== Design Unit: mtiUvm.uvm_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uvm_pkg/uvm_component_name_check_visitor/visit/immed__262
+                     C:/questasim64_2021.1/win64/../verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
+                                                        0          1
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /my_top/my_subscriber/group_1                   100.00%        100          -    Covered              
+    covered/total bins:                                    87         87          -                      
+    missing/total bins:                                     0         87          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint Input_Data                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Input_Data[0]                                 616          1          -    Covered              
+        bin Input_Data[1]                                 682          1          -    Covered              
+        bin Input_Data[2]                                 705          1          -    Covered              
+    Coverpoint Address                                100.00%        100          -    Covered              
+        covered/total bins:                                16         16          -                      
+        missing/total bins:                                 0         16          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Address[0]                                    133          1          -    Covered              
+        bin Address[1]                                    126          1          -    Covered              
+        bin Address[2]                                    147          1          -    Covered              
+        bin Address[3]                                    122          1          -    Covered              
+        bin Address[4]                                    109          1          -    Covered              
+        bin Address[5]                                    145          1          -    Covered              
+        bin Address[6]                                    127          1          -    Covered              
+        bin Address[7]                                    134          1          -    Covered              
+        bin Address[8]                                    108          1          -    Covered              
+        bin Address[9]                                    117          1          -    Covered              
+        bin Address[10]                                   127          1          -    Covered              
+        bin Address[11]                                   114          1          -    Covered              
+        bin Address[12]                                   122          1          -    Covered              
+        bin Address[13]                                   130          1          -    Covered              
+        bin Address[14]                                   121          1          -    Covered              
+        bin Address[15]                                   121          1          -    Covered              
+    Coverpoint Write_Read                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Write[0]                                      980          1          -    Covered              
+        bin Write[1]                                     1023          1          -    Covered              
+    Coverpoint Enable                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Enable[0]                                     312          1          -    Covered              
+        bin Enable[1]                                    1691          1          -    Covered              
+    Cross Address_Write                               100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Address[15],Write[1],Enable[1]>           56          1          -    Covered              
+            bin <Address[14],Write[1],Enable[1]>           49          1          -    Covered              
+            bin <Address[13],Write[1],Enable[1]>           58          1          -    Covered              
+            bin <Address[12],Write[1],Enable[1]>           56          1          -    Covered              
+            bin <Address[11],Write[1],Enable[1]>           45          1          -    Covered              
+            bin <Address[10],Write[1],Enable[1]>           45          1          -    Covered              
+            bin <Address[9],Write[1],Enable[1]>            52          1          -    Covered              
+            bin <Address[8],Write[1],Enable[1]>            45          1          -    Covered              
+            bin <Address[7],Write[1],Enable[1]>            64          1          -    Covered              
+            bin <Address[6],Write[1],Enable[1]>            68          1          -    Covered              
+            bin <Address[5],Write[1],Enable[1]>            59          1          -    Covered              
+            bin <Address[4],Write[1],Enable[1]>            48          1          -    Covered              
+            bin <Address[3],Write[1],Enable[1]>            59          1          -    Covered              
+            bin <Address[2],Write[1],Enable[1]>            52          1          -    Covered              
+            bin <Address[1],Write[1],Enable[1]>            51          1          -    Covered              
+            bin <Address[0],Write[1],Enable[1]>            61          1          -    Covered              
+            bin <Address[15],Write[0],Enable[1]>           49          1          -    Covered              
+            bin <Address[14],Write[0],Enable[1]>           55          1          -    Covered              
+            bin <Address[13],Write[0],Enable[1]>           46          1          -    Covered              
+            bin <Address[12],Write[0],Enable[1]>           48          1          -    Covered              
+            bin <Address[11],Write[0],Enable[1]>           54          1          -    Covered              
+            bin <Address[10],Write[0],Enable[1]>           64          1          -    Covered              
+            bin <Address[9],Write[0],Enable[1]>            49          1          -    Covered              
+            bin <Address[8],Write[0],Enable[1]>            47          1          -    Covered              
+            bin <Address[7],Write[0],Enable[1]>            51          1          -    Covered              
+            bin <Address[6],Write[0],Enable[1]>            48          1          -    Covered              
+            bin <Address[5],Write[0],Enable[1]>            59          1          -    Covered              
+            bin <Address[4],Write[0],Enable[1]>            44          1          -    Covered              
+            bin <Address[3],Write[0],Enable[1]>            40          1          -    Covered              
+            bin <Address[2],Write[0],Enable[1]>            72          1          -    Covered              
+            bin <Address[1],Write[0],Enable[1]>            46          1          -    Covered              
+            bin <Address[0],Write[0],Enable[1]>            51          1          -    Covered              
+            bin <Address[15],Write[1],Enable[0]>            7          1          -    Covered              
+            bin <Address[14],Write[1],Enable[0]>            9          1          -    Covered              
+            bin <Address[13],Write[1],Enable[0]>           15          1          -    Covered              
+            bin <Address[12],Write[1],Enable[0]>            6          1          -    Covered              
+            bin <Address[11],Write[1],Enable[0]>            7          1          -    Covered              
+            bin <Address[10],Write[1],Enable[0]>            8          1          -    Covered              
+            bin <Address[9],Write[1],Enable[0]>             9          1          -    Covered              
+            bin <Address[8],Write[1],Enable[0]>            10          1          -    Covered              
+            bin <Address[7],Write[1],Enable[0]>            13          1          -    Covered              
+            bin <Address[6],Write[1],Enable[0]>             5          1          -    Covered              
+            bin <Address[5],Write[1],Enable[0]>            14          1          -    Covered              
+            bin <Address[4],Write[1],Enable[0]>             9          1          -    Covered              
+            bin <Address[3],Write[1],Enable[0]>            13          1          -    Covered              
+            bin <Address[2],Write[1],Enable[0]>            13          1          -    Covered              
+            bin <Address[1],Write[1],Enable[0]>            10          1          -    Covered              
+            bin <Address[0],Write[1],Enable[0]>             7          1          -    Covered              
+            bin <Address[15],Write[0],Enable[0]>            9          1          -    Covered              
+            bin <Address[14],Write[0],Enable[0]>            8          1          -    Covered              
+            bin <Address[13],Write[0],Enable[0]>           11          1          -    Covered              
+            bin <Address[12],Write[0],Enable[0]>           12          1          -    Covered              
+            bin <Address[11],Write[0],Enable[0]>            8          1          -    Covered              
+            bin <Address[10],Write[0],Enable[0]>           10          1          -    Covered              
+            bin <Address[9],Write[0],Enable[0]>             7          1          -    Covered              
+            bin <Address[8],Write[0],Enable[0]>             6          1          -    Covered              
+            bin <Address[7],Write[0],Enable[0]>             6          1          -    Covered              
+            bin <Address[6],Write[0],Enable[0]>             6          1          -    Covered              
+            bin <Address[5],Write[0],Enable[0]>            13          1          -    Covered              
+            bin <Address[4],Write[0],Enable[0]>             8          1          -    Covered              
+            bin <Address[3],Write[0],Enable[0]>            10          1          -    Covered              
+            bin <Address[2],Write[0],Enable[0]>            10          1          -    Covered              
+            bin <Address[1],Write[0],Enable[0]>            19          1          -    Covered              
+            bin <Address[0],Write[0],Enable[0]>            14          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uvm_pkg/uvm_component_name_check_visitor/visit/immed__262
+                     C:/questasim64_2021.1/win64/../verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
+                                                        0          1
+
+Total Coverage By Instance (filtered view): 64.78%
+
