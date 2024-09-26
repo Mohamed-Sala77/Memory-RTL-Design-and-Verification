@@ -37,7 +37,7 @@ Z7 !s92 -coveropt 3 +cover +acc -sv -v mem_dut.v -L mtiAvm -L mtiRnm -L mtiOvm -
 Z8 tCvgOpt 0
 vmemory
 R1
-Z9 !s110 1726843188
+Z9 !s110 1727352515
 R2
 r1
 !s85 0
@@ -49,11 +49,11 @@ Z10 dF:/Digital_verification/Digital_verification_Diploma/UVM labs/mem_lab
 w1726414566
 8mem_dut.v
 Fmem_dut.v
-!i122 71
+!i122 73
 L0 1 40
 R4
 31
-Z11 !s108 1726843187.000000
+Z11 !s108 1727352514.000000
 Z12 !s107 interface.sv|my_test.sv|my_env.sv|my_subscriber.sv|my_scoreboard.sv|my_agent.sv|my_sequencer.sv|my_monitor.sv|my_driver.sv|my_sequence.sv|my_sequence_item.sv|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_global_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.2/../verilog_src/uvm-1.2/src/uvm_macros.svh|pack1.sv|my_top.sv|
 Z13 !s90 -reportprogress|300|-coveropt|3|+cover|+acc|-sv|my_top.sv|-v|mem_dut.v|
 !i113 0
@@ -69,11 +69,11 @@ R2
 r1
 !s85 0
 !i10b 1
-!s100 hMBXa>eZ4?FXhzjJF_Zzn1
-IRRSFmW]SchAo59gMh37_h2
+!s100 TBc9OzlioEh_1BbjKbJ]33
+I;:8VjfYc8MYdADKK^`GnS2
 S1
 R10
-w1726843169
+w1727352510
 8my_top.sv
 Fmy_top.sv
 Z15 Fpack1.sv
@@ -101,8 +101,8 @@ Z36 Fmy_subscriber.sv
 Z37 Fmy_env.sv
 Z38 Fmy_test.sv
 R3
-!i122 71
-L0 1 7865
+!i122 73
+L0 1 7778
 R4
 31
 R11

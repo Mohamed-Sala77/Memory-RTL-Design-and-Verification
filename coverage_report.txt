@@ -176,83 +176,83 @@ Branch totals: 0 hits of 2 branches = 0.00%
 
   File my_driver.sv
 ------------------------------------IF Branch------------------------------------
-    43                                         1     Count coming in to IF
-    43              1                    ***0***     
+    28                                         1     Count coming in to IF
+    28              1                    ***0***     
                                                1     All False Count
 Branch totals: 1 hit of 2 branches = 50.00%
 
 ------------------------------------IF Branch------------------------------------
-    44                                   ***0***     Count coming in to IF
-    44              1                    ***0***     
+    29                                   ***0***     Count coming in to IF
+    29              1                    ***0***     
                                          ***0***     All False Count
 Branch totals: 0 hits of 2 branches = 0.00%
 
 
   File my_monitor.sv
 ------------------------------------IF Branch------------------------------------
-    41                                         1     Count coming in to IF
-    41              1                    ***0***     
+    29                                         1     Count coming in to IF
+    29              1                    ***0***     
                                                1     All False Count
 Branch totals: 1 hit of 2 branches = 50.00%
 
 ------------------------------------IF Branch------------------------------------
-    42                                   ***0***     Count coming in to IF
-    42              1                    ***0***     
+    30                                   ***0***     Count coming in to IF
+    30              1                    ***0***     
                                          ***0***     All False Count
 Branch totals: 0 hits of 2 branches = 0.00%
 
 
   File my_agent.sv
 ------------------------------------IF Branch------------------------------------
-    51                                         1     Count coming in to IF
-    51              1                    ***0***     
+    28                                         1     Count coming in to IF
+    28              1                    ***0***     
                                                1     All False Count
 Branch totals: 1 hit of 2 branches = 50.00%
 
 ------------------------------------IF Branch------------------------------------
-    52                                   ***0***     Count coming in to IF
-    52              1                    ***0***     
+    29                                   ***0***     Count coming in to IF
+    29              1                    ***0***     
                                          ***0***     All False Count
 Branch totals: 0 hits of 2 branches = 0.00%
 
 
   File my_scoreboard.sv
 ------------------------------------IF Branch------------------------------------
-    49                                      2003     Count coming in to IF
-    49              1                       2003     
-    52              1                    ***0***     
-Branch totals: 1 hit of 2 branches = 50.00%
-
-------------------------------------IF Branch------------------------------------
-    54                                   ***0***     Count coming in to IF
-    54              1                    ***0***     
-                                         ***0***     All False Count
-Branch totals: 0 hits of 2 branches = 0.00%
-
-------------------------------------IF Branch------------------------------------
-    71                                         1     Count coming in to IF
-    71              1                          1     
+    63                                         1     Count coming in to IF
+    63              1                          1     
                                          ***0***     All False Count
 Branch totals: 1 hit of 2 branches = 50.00%
 
 ------------------------------------IF Branch------------------------------------
-    72                                         1     Count coming in to IF
-    72              1                          1     
+    64                                         1     Count coming in to IF
+    64              1                          1     
                                          ***0***     All False Count
 Branch totals: 1 hit of 2 branches = 50.00%
 
 ------------------------------------IF Branch------------------------------------
-    90                                      2003     Count coming in to IF
-    90              1                          3     
-    97              1                       1691     
-    108             1                        309     
+    82                                      2003     Count coming in to IF
+    82              1                          3     
+    89              1                       1691     
+    100             1                        309     
 Branch totals: 3 hits of 3 branches = 100.00%
 
 ------------------------------------IF Branch------------------------------------
-    98                                      1691     Count coming in to IF
-    98              1                        868     
-    102             1                        823     
+    90                                      1691     Count coming in to IF
+    90              1                        868     
+    94              1                        823     
 Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                     2003     Count coming in to IF
+    109             1                       2003     
+    112             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    114                                  ***0***     Count coming in to IF
+    114             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
 
 
   File my_env.sv
@@ -352,20 +352,20 @@ Condition totals: 0 of 1 input term covered = 0.00%
 
 
 ----------------Focused Condition View-------------------
-Line       49 Item    1  ((this.sequence_item.data_out == this.expected_item.data_out) && (this.sequence_item.valid_out == this.expected_item.valid_out))
+Line       109 Item    1  ((sequence_item.data_out == expected_item.data_out) && (sequence_item.valid_out == expected_item.valid_out))
 Condition totals: 0 of 2 input terms covered = 0.00%
 
-                                                      Input Term   Covered  Reason for no coverage   Hint
-                                                     -----------  --------  -----------------------  --------------
-    (this.sequence_item.data_out == this.expected_item.data_out)         N  '_0' not hit             Hit '_0'
-  (this.sequence_item.valid_out == this.expected_item.valid_out)         N  '_0' not hit             Hit '_0'
+                                            Input Term   Covered  Reason for no coverage   Hint
+                                           -----------  --------  -----------------------  --------------
+    (sequence_item.data_out == expected_item.data_out)         N  '_0' not hit             Hit '_0'
+  (sequence_item.valid_out == expected_item.valid_out)         N  '_0' not hit             Hit '_0'
 
-     Rows:       Hits  FEC Target                                                        Non-masking condition(s)      
- ---------  ---------  --------------------                                              -------------------------     
-  Row   1:    ***0***  (this.sequence_item.data_out == this.expected_item.data_out)_0    -                             
-  Row   2:          1  (this.sequence_item.data_out == this.expected_item.data_out)_1    (this.sequence_item.valid_out == this.expected_item.valid_out)
-  Row   3:    ***0***  (this.sequence_item.valid_out == this.expected_item.valid_out)_0  (this.sequence_item.data_out == this.expected_item.data_out)
-  Row   4:          1  (this.sequence_item.valid_out == this.expected_item.valid_out)_1  (this.sequence_item.data_out == this.expected_item.data_out)
+     Rows:       Hits  FEC Target                                              Non-masking condition(s)      
+ ---------  ---------  --------------------                                    -------------------------     
+  Row   1:    ***0***  (sequence_item.data_out == expected_item.data_out)_0    -                             
+  Row   2:          1  (sequence_item.data_out == expected_item.data_out)_1    (sequence_item.valid_out == expected_item.valid_out)
+  Row   3:    ***0***  (sequence_item.valid_out == expected_item.valid_out)_0  (sequence_item.data_out == expected_item.data_out)
+  Row   4:          1  (sequence_item.valid_out == expected_item.valid_out)_1  (sequence_item.data_out == expected_item.data_out)
 
 
 
@@ -495,7 +495,7 @@ Covergroup                                             Metric       Goal       B
 Statement Coverage:
     Enabled Coverage              Bins      Hits    Misses  Coverage
     ----------------              ----      ----    ------  --------
-    Statements                     189       141        48    74.60%
+    Statements                     190       142        48    74.73%
 
 ================================Statement Details================================
 
@@ -532,95 +532,95 @@ Statement Coverage for instance /my_top --
     2               8                    ***0***     
     2               9                    ***0***     
     2              10                    ***0***     
-    9               1                          1     
-    13              1                          1     
-    20              1                          1     
-    24              1                          1     
-    24              2                       2000     
+    8               1                          1     
+    12              1                          1     
+    19              1                          1     
+    23              1                          1     
+    23              2                       2000     
+    26              1                       2000     
     27              1                       2000     
-    28              1                       2000     
-    34              1                       2000     
+    33              1                       2000     
+    38              1                          1     
     39              1                          1     
     40              1                          1     
     41              1                          1     
-    42              1                          1     
+    43              1                          1     
     44              1                          1     
     45              1                          1     
     46              1                          1     
-    47              1                          1     
+    48              1                          1     
     49              1                          1     
     50              1                          1     
-    51              1                          1     
   File my_driver.sv
     2               1                    ***0***     
     2               2                    ***0***     
     2               3                    ***0***     
     8               1                          1     
-    40              1                          1     
-    41              1                          1     
-    44              1                    ***0***     
-    49              1                          1     
-    57              1                          1     
-    58              1                          1     
-    60              1                       2004     
-    61              1                       2003     
-    62              1                       2003     
-    63              1                       2003     
-    64              1                       2003     
-    65              1                       2003     
-    66              1                       2003     
-    67              1                       2003     
-    68              1                       2003     
-    69              1                       2003     
-    85              1                       2003     
+    25              1                          1     
+    26              1                          1     
+    29              1                    ***0***     
+    34              1                          1     
+    42              1                          1     
+    43              1                          1     
+    45              1                       2004     
+    46              1                       2003     
+    47              1                       2003     
+    48              1                       2003     
+    49              1                       2003     
+    50              1                       2003     
+    51              1                       2003     
+    52              1                       2003     
+    53              1                       2003     
+    54              1                       2003     
+    56              1                       2003     
   File my_monitor.sv
     2               1                    ***0***     
     2               2                    ***0***     
     2               3                    ***0***     
     10              1                          1     
-    37              1                          1     
-    38              1                          1     
-    39              1                          1     
-    42              1                    ***0***     
-    47              1                          1     
-    54              1                          1     
-    55              1                          1     
-    58              1                       2004     
+    25              1                          1     
+    26              1                          1     
+    27              1                          1     
+    30              1                    ***0***     
+    35              1                          1     
+    42              1                          1     
+    43              1                          1     
+    46              1                       2004     
+    47              1                       2003     
+    48              1                       2003     
+    49              1                       2003     
+    50              1                       2003     
+    51              1                       2003     
+    54              1                       2003     
+    55              1                       2003     
+    57              1                       2003     
+    58              1                       2003     
     59              1                       2003     
-    60              1                       2003     
     61              1                       2003     
-    62              1                       2003     
-    63              1                       2003     
-    66              1                       2003     
-    67              1                       2003     
-    69              1                       2003     
-    70              1                       2003     
-    71              1                       2003     
-    73              1                       2003     
   File my_sequencer.sv
     2               1                    ***0***     
     2               2                    ***0***     
     2               3                    ***0***     
     7               1                          1     
+    24              1                          1     
+    25              1                          1     
+    30              1                          1     
     39              1                          1     
-    40              1                          1     
-    45              1                          1     
-    54              1                          1     
   File my_agent.sv
     2               1                    ***0***     
     2               2                    ***0***     
     2               3                    ***0***     
     14              1                          1     
-    46              1                          1     
-    47              1                          1     
-    48              1                          1     
+    23              1                          1     
+    24              1                          1     
+    25              1                          1     
+    26              1                          1     
+    29              1                    ***0***     
+    31              1                          1     
+    32              1                          1     
+    39              1                          1     
+    40              1                          1     
     49              1                          1     
-    52              1                    ***0***     
-    54              1                          1     
-    55              1                          1     
-    62              1                          1     
-    63              1                          1     
-    72              1                          1     
   File my_scoreboard.sv
     2               1                    ***0***     
     2               2                    ***0***     
@@ -636,43 +636,44 @@ Statement Coverage for instance /my_top --
     42              1                          1     
     44              1                       2004     
     46              1                       2003     
-    51              1                       2003     
-    53              1                    ***0***     
-    54              1                    ***0***     
-    62              1                       2003     
-    63              1                       2003     
-    70              1                          1     
-    71              1                          1     
-    72              1                          1     
-    84              1                       2003     
-    85              1                       2003     
-    86              1                       2003     
-    92              1                          3     
-    92              2                         48     
-    93              1                         48     
-    95              1                          3     
-    96              1                          3     
-    100             1                        868     
-    101             1                        868     
-    104             1                        823     
-    105             1                        823     
-    110             1                        309     
-    111             1                        309     
+    47              1                       2003     
+    54              1                       2003     
+    55              1                       2003     
+    62              1                          1     
+    63              1                          1     
+    64              1                          1     
+    76              1                       2003     
+    77              1                       2003     
+    78              1                       2003     
+    84              1                          3     
+    84              2                         48     
+    85              1                         48     
+    87              1                          3     
+    88              1                          3     
+    92              1                        868     
+    93              1                        868     
+    96              1                        823     
+    97              1                        823     
+    102             1                        309     
+    103             1                        309     
+    111             1                       2003     
+    113             1                    ***0***     
+    114             1                    ***0***     
   File my_subscriber.sv
     2               1                    ***0***     
     2               2                    ***0***     
     2               3                    ***0***     
     29              1                          1     
     30              1                          1     
-    67              1                          1     
-    68              1                          1     
-    75              1                          1     
-    84              1                          1     
-    89              1                       2003     
-    91              1                       2003     
-    92              1                       2003     
-    93              1                       2003     
-    95              1                       2003     
+    49              1                          1     
+    50              1                          1     
+    57              1                          1     
+    66              1                          1     
+    71              1                       2003     
+    73              1                       2003     
+    74              1                       2003     
+    75              1                       2003     
+    77              1                       2003     
   File my_env.sv
     2               1                    ***0***     
     2               2                    ***0***     
@@ -866,5 +867,5 @@ Name                 File(Line)                   Failure      Pass
                      C:/questasim64_2021.1/win64/../verilog_src/uvm-1.2/src/base/uvm_traversal.svh(262)
                                                         0          1
 
-Total Coverage By Instance (filtered view): 64.78%
+Total Coverage By Instance (filtered view): 64.80%
 

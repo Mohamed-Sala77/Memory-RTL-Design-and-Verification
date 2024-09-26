@@ -45,7 +45,7 @@ endfunction
 
 /*----------------------------------------------------------------------------*/
 
-function void  my_subscriber::build_phase(uvm_phase phase);
+function void  build_phase(uvm_phase phase);
 super.build_phase(phase);
 sequence_item   = my_sequence_item::type_id::create("sequence_item,this");
     
@@ -53,7 +53,7 @@ endfunction //build_phase
 
 
 
-function void  my_subscriber::connect_phase(uvm_phase phase);
+function void  connect_phase(uvm_phase phase);
 super.connect_phase(phase);
 endfunction //connect_phase
 
@@ -62,12 +62,12 @@ endfunction //connect_phase
 /*  UVM Run Phases                                                            */
 /*----------------------------------------------------------------------------*/
 
-task  my_subscriber::run_phase(uvm_phase phase);
+task  run_phase(uvm_phase phase);
 super.run_phase(phase);
 endtask //run_phase
 
 
-function void my_subscriber::write(my_sequence_item t) ;
+function void write(my_sequence_item t) ;
 sequence_item = t ;
 
 $display("---------------------------------------------------------------");

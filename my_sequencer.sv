@@ -20,13 +20,13 @@ function new(string name =" my_sequencer " , uvm_component parent=null);
 
 /*----------------------------------------------------------------------------*/
 
- function void  :build_phase(uvm_phase phase);
+ function void build_phase(uvm_phase phase);
     super.build_phase(phase);
 sequence_item   = my_sequence_item::type_id::create("sequence_item");
         
 endfunction //build_phase
 
- function void  :connect_phase(uvm_phase phase);
+ function void connect_phase(uvm_phase phase);
     super.connect_phase(phase);
 endfunction //connect_phase
 
@@ -35,7 +35,7 @@ endfunction //connect_phase
 /*  UVM Run Phases                                                            */
 /*----------------------------------------------------------------------------*/
 
- task  :run_phase(uvm_phase phase);
+ task  run_phase(uvm_phase phase);
     super.run_phase(phase);
 endtask //run_phase
 
